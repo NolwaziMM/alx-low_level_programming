@@ -14,6 +14,6 @@ int _isupper(int c)
 	}
 	else
 	{
-		rethurn (0);
+		return (0);
 	}
 }
