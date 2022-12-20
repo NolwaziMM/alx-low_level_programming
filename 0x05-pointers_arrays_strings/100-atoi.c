@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _atoi - function converts string to an integer
+ * _atoi - function converts a string into an integer
  * @s: Pointer parameter
  * Return: returns an integer value
  */
@@ -16,7 +16,7 @@ int _atoi(char *s)
 		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 			break;
 		if (*(s + count) == '-')
-			k *= -1
+			k *= -1;
 
 		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
 			if (size > 0)
